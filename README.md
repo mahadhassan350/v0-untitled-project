@@ -1,4 +1,4 @@
-# Simple Bot Interface
+# V0 Pump.fun Bot UI Project
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 
@@ -7,8 +7,11 @@
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+This project combines a Python backend bot for monitoring and auto-selling Pump.fun tokens with a Next.js frontend UI for displaying status.
+
+**Backend:** Python script using Flask, monitoring a wallet specified in `.env`.
+**Frontend:** Next.js/React UI generated with v0, displaying status polled from the backend.
+**Communication:** Simple HTTP polling from Frontend to Backend API.
 
 ## Deployment
 

@@ -1,0 +1,8 @@
+python-dotenv
+solana==0.32.0
+solders==0.20.0
+borsh-construct
+Flask>=2.0.0,<3.0.0
+Flask-Cors>=3.0.0,<4.0.0
+base58
+python-dotenv
